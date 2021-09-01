@@ -1,0 +1,30 @@
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.create-col {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
+.monthly-cards {
+    border: 1px solid black;
+    height: 500px;
+}
+
+.input-list, .input-list-button {
+    display: inline-block;
+}
+
+

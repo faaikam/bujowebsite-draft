@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullet Journal :: September</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap" rel="stylesheet">
+    
+
+</head>
+
+
+<body>
+<!--Header-->
+    <div id="header-month">
+        <span>September</span> 
+        <span>2021</span>
+    </div>
+    <div>
+        <p>Nice Quote - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio omnis nisi ea repellendus temporibus assumenda earum molestias id molestiae?</p>
+    </div>
+
+    
+ <!--Daily Tracker-->     
+    <h1>Daily Tracker</h1>      
+   
+    <div class="inlineblock">
+        <form>Add Title
+            <input id="tracker-title" type="text" placeholder="add tracker title" maxlength="20">
+        </form>
+    </div>        
+    
+    <div class="inlineblock">
+        <button id="add-tracker-list"><i class="fas fa-plus-square"></i></button>
+    </div>
+
+    <div id="container"></div>
+
+    <hr>
+
+
+<!--Monthly cards note-->
+    <h1>September Cards</h1>
+
+    <div>
+        <label for="job">Select card here</label>
+        <select id="card-option" name="job"></select>
+    </div>
+
+    <div>
+        <form>Write note to your card
+            <input type="text" name="" id="card-ans" maxlength="40">
+            <button id="add-card-ans" type="button"><i class="fas fa-plus-square"></i></button>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="inlineblock">
+        <form>Add Card
+            <input id="card-name" type="text" placeholder="add card name" maxlength="40">
+        </form>
+    </div>        
+        
+    <div class="inlineblock">
+        <button id="add-card-name" type="button"><i class="fas fa-plus-square"></i></button>
+    </div>
+
+        
+    <div id="monthly-card-section">
+
+        <div class="row cards" id="row1"></div>
+  
+        <div class="row cards" id="row2"></div>
+
+        <div class="row cards" id="row3"></div>
+    
+        <div class="row cards" id="row4"></div>
+
+        <div class="row cards" id="row5"></div>
+
+    </div>
+
+    <hr>
+
+
+<!--Journal Prompts-->
+    <h1>My Journals</h1>
+
+    <div>
+        <div id="show-ideas"></div>
+        <button type="button" id="ideas">Get ideas !</button>
+    </div>
+
+    <div id="journal-container"></div>
+
+    <div>
+        
+        <form action="">Title<input type="text" name="" id="journal-title" placeholder="add title"></form>
+        <textarea name="" id="journal-text" cols="150" rows="10"></textarea>
+        <button id="add-journal" type="button"><i class="fas fa-plus-square"></i></button>
+
+    </div>
+
+    <hr>
+
+
+<!--Footer-->
+    <footer>
+        <p>Monthly Bullet Journal @ September <br> by WalaiLorem17</p>
+    </footer>
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
